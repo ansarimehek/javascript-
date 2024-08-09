@@ -19,8 +19,10 @@ function countOccurrences(input) {
     console.log('John:', johnCount, 'Rohan:', rohanCount);
 }
 
+
 // Get user input
 const userInput = prompt('Enter the numbers (e.g., 1 1 2 2 2):');
 
 // Call the function with user input
 countOccurrences(userInput);
+

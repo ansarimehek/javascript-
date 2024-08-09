@@ -8,8 +8,8 @@
 
 // Pretend that this response is coming from the server
 // const students = [
-//     {name: "ajam", subject: "JavaScript"},
-//     {name: "junaid", subject: "Bootstrap"}
+//     {name: "mehek", subject: "JavaScript"},
+//     {name: "mirha", subject: "Bootstrap"}
 // ]
 
 
@@ -33,7 +33,7 @@
 //     }, 3000);
 // }
 
-// let newStudent = {name:"mohammed", subject:"react"}
+// let newStudent = {name:"mahaa", subject:"react"}
 // enrollStudent(newStudent, getStudents);
 // getStudents();
 
@@ -43,7 +43,7 @@
 // Pretend that this response is coming from the server
 const students = [
     { name: "harry", subject: "JavaScript" },
-    { name: "Rohan", subject: "Machine Learning" }
+    { name: "priya", subject: "Machine Learning" }
 ]
 
 
@@ -63,11 +63,12 @@ function enrollStudent(student) {
     })
 }
 
+
 function getStudents() {
     setTimeout(function () {
         let str = "";
         students.forEach(function (student) {
-            str += `<li> ${student.name}</li>`
+            str += `<li> ${student.name} </li>`
         });
         document.getElementById('students').innerHTML = str;
         console.log("Students have been fetched");
